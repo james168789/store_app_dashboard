@@ -1,0 +1,190 @@
+{
+  "generated_at": "2026-07-11T08:14:36.936Z",
+  "kpis": {
+    "sku_count": "6",
+    "warehouse_count": "2",
+    "supplier_count": "3",
+    "total_units": "1805",
+    "stock_value_cost": "15335.00",
+    "stock_value_retail": "28215.00",
+    "low_stock_count": "4"
+  },
+  "byCategory": [
+    {
+      "category": "Beverages",
+      "units": "390",
+      "value_cost": "5950.00",
+      "value_retail": "10900.00"
+    },
+    {
+      "category": "Stationery",
+      "units": "1015",
+      "value_cost": "4785.00",
+      "value_retail": "9565.00"
+    },
+    {
+      "category": "Snacks",
+      "units": "400",
+      "value_cost": "4600.00",
+      "value_retail": "7750.00"
+    }
+  ],
+  "byWarehouse": [
+    {
+      "warehouse": "Main Warehouse",
+      "units": "1635",
+      "value_cost": "14135.00",
+      "value_retail": "26015.00"
+    },
+    {
+      "warehouse": "Branch Store",
+      "units": "170",
+      "value_cost": "1200.00",
+      "value_retail": "2200.00"
+    }
+  ],
+  "products": [
+    {
+      "sku": "BEV-002",
+      "name": "Orange Juice 1L",
+      "category": "Beverages",
+      "warehouse": "Main Warehouse",
+      "quantity": 200,
+      "reorder_level": 40,
+      "cost_price": "25.00",
+      "sale_price": "45.00",
+      "value_cost": "5000.00",
+      "value_retail": "9000.00",
+      "low": false
+    },
+    {
+      "sku": "SNK-001",
+      "name": "Potato Chips 50g",
+      "category": "Snacks",
+      "warehouse": "Main Warehouse",
+      "quantity": 300,
+      "reorder_level": 60,
+      "cost_price": "12.00",
+      "sale_price": "20.00",
+      "value_cost": "3600.00",
+      "value_retail": "6000.00",
+      "low": false
+    },
+    {
+      "sku": "STA-001",
+      "name": "Ballpoint Pen Blue",
+      "category": "Stationery",
+      "warehouse": "Main Warehouse",
+      "quantity": 995,
+      "reorder_level": 150,
+      "cost_price": "3.00",
+      "sale_price": "7.00",
+      "value_cost": "2985.00",
+      "value_retail": "6965.00",
+      "low": false
+    },
+    {
+      "sku": "STA-002",
+      "name": "A4 Paper Ream",
+      "category": "Stationery",
+      "warehouse": "Main Warehouse",
+      "quantity": 20,
+      "reorder_level": 30,
+      "cost_price": "90.00",
+      "sale_price": "130.00",
+      "value_cost": "1800.00",
+      "value_retail": "2600.00",
+      "low": true
+    },
+    {
+      "sku": "SNK-001",
+      "name": "Potato Chips 50g",
+      "category": "Snacks",
+      "warehouse": "Branch Store",
+      "quantity": 50,
+      "reorder_level": 60,
+      "cost_price": "12.00",
+      "sale_price": "20.00",
+      "value_cost": "600.00",
+      "value_retail": "1000.00",
+      "low": true
+    },
+    {
+      "sku": "BEV-001",
+      "name": "Mineral Water 500ml",
+      "category": "Beverages",
+      "warehouse": "Branch Store",
+      "quantity": 120,
+      "reorder_level": 100,
+      "cost_price": "5.00",
+      "sale_price": "10.00",
+      "value_cost": "600.00",
+      "value_retail": "1200.00",
+      "low": false
+    },
+    {
+      "sku": "SNK-002",
+      "name": "Chocolate Bar 40g",
+      "category": "Snacks",
+      "warehouse": "Main Warehouse",
+      "quantity": 50,
+      "reorder_level": 80,
+      "cost_price": "8.00",
+      "sale_price": "15.00",
+      "value_cost": "400.00",
+      "value_retail": "750.00",
+      "low": true
+    },
+    {
+      "sku": "BEV-001",
+      "name": "Mineral Water 500ml",
+      "category": "Beverages",
+      "warehouse": "Main Warehouse",
+      "quantity": 70,
+      "reorder_level": 100,
+      "cost_price": "5.00",
+      "sale_price": "10.00",
+      "value_cost": "350.00",
+      "value_retail": "700.00",
+      "low": true
+    }
+  ],
+  "lowStock": [
+    {
+      "sku": "BEV-001",
+      "name": "Mineral Water 500ml",
+      "warehouse": "Main Warehouse",
+      "quantity": 70,
+      "reorder_level": 100
+    },
+    {
+      "sku": "SNK-002",
+      "name": "Chocolate Bar 40g",
+      "warehouse": "Main Warehouse",
+      "quantity": 50,
+      "reorder_level": 80
+    },
+    {
+      "sku": "SNK-001",
+      "name": "Potato Chips 50g",
+      "warehouse": "Branch Store",
+      "quantity": 50,
+      "reorder_level": 60
+    },
+    {
+      "sku": "STA-002",
+      "name": "A4 Paper Ream",
+      "warehouse": "Main Warehouse",
+      "quantity": 20,
+      "reorder_level": 30
+    }
+  ],
+  "movements": [
+    {
+      "day": "2026-07-11",
+      "units_in": "2670",
+      "units_out": "865",
+      "moves": "12"
+    }
+  ]
+}
